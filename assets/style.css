@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', Times, serif;
+}
+
+header{
+    display: flex;
+    flex-basis: 10%;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+nav{
+    border: 1px solid black; 
+    color: blue; 
+}
+.images{
+    position: relative;
+    top:10px;
+    left: 60px;
+    
+
+}
+
+img{
+    width: 150px;
+    height: 100px;
+    margin-left: 70px;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
